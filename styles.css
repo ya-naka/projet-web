@@ -153,8 +153,10 @@ img{
     background-position: center;
     background-size: cover;
     color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
 }
-
 
 .bg-green{
     background-color: #39D6C0;
