@@ -1,39 +1,43 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="utf-8" />
-    <meta
+    <head>
+        <meta charset="UTF-8"/>
+        <meta
             name="viewport"
             content="width=device-width, initial-scale=1.0"
         />
-    <title>Le vélo c'est rigolo</title>
-    <link rel = "stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="styles.css" />
+        <link href="https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&family=Roboto:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"> 
     </head>
     <body>
-      <header>
-        <div class="wrapper">
-            <img class="header-logo" src="Photo/logo.png" alt="Be Biker Logo"/>
-            <nav>
-                <ul class="nav-list">
-                    <li class="nav-list-item">
-                        <a href="home.html">ACCUEIL</a>
-                    </li>
-                    <li class="nav-list-item nav-link-active">
-                        <a href="about.html">QUI SOMMES NOUS ?</a>
-                    </li>
-                    <li class="nav-list-item">
-                        <a href="services.html">SERVICES</a>
-                    </li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+        <div class="layout">
+            <header>
+                <div class="wrapper">
+                    <img class="header-logo" src="Photo/logo.png" alt="Be Biker Logo"/>
+                    <nav>
+                        <ul class="nav-list">
+                            <li class="nav-list-item">
+                                <a href="home.html">ACCUEIL</a>
+                            </li>
+                            <li class="nav-list-item nav-link-active">
+                                <a href="about.html">QUI SOMMES NOUS ?</a>
+                            </li>
+                            <li class="nav-list-item">
+                                <a href="services.html">SERVICES</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </header>
 
   <main>
+    <div class="wrapper">
+      <section class="intro"></section>
         <h1>
           Qui sommes-nous ?
         </h1>
-
+      </section>
+        <section class="section-texte">
         <h2>
           Depuis 1990
         </h2>
@@ -49,7 +53,8 @@
            que vous débutiez ou que cous ayez déjà
            pédalé des milliers de kilomètres.
         </p>
-        
+      </section>
+      <section class="section-texte">
         <h2>
           John et Olivier
         </h2>
@@ -66,7 +71,8 @@
           est une des clefs de cette satisfaction. 
           C’est pourquoi Be Biker Services est un atelier local.
         </p>
-
+      </section>
+      <section class="section-texte">
         <h2>
           L'atelier
         </h2>
@@ -76,36 +82,37 @@
            C’est en combinant cet équipement de pointe et notre expérience
            que nous sommes capables de vous apporter les meilleurs services.
         </p>
-          <a href="services.html">Nos services</a> 
-          <img src="Photo/about-01.jpg" alt="Roue_Velo">      
+          <a class="button bg-green" href="services.html">Nos services</a>
+        </section> 
+          <img src="Photo/about/about-01.jpg" alt="Roue_Velo">   
+      </div>   
   </main>
 
-    <footer>
-      <div class="wrapper">
-          <div>
-              <img src="Photo/logo.png" alt="Be Biker Logo"/>
-              <p>Be Biker Service</br>
-                 143, avenue de Versailles.</br>
-                 75016 Paris</br>
-                 contact@bebiker.fr</br>
-                 01.23.45.67.89
-              </p>
-          </div>
-          <nav>
-              <ul>
-                  <li>
-                      <a href="home.html">Accueil</a>
-                  </li>
-                  <li>
-                      <a href="about.html">Qui sommes nous ?</a>
-                  </li>
-                  <li>
-                      <a href="services.html">Services</a>
-                  </li>
-              </ul>
-          </nav>
-      </div>
-  </footer>
+  <footer>
+    <div class="wrapper">
+        <div class="contact">
+            <p>Be Biker Service</br>
+               143, avenue de Versailles.</br>
+               75016 Paris</br>
+               contact@bebiker.fr</br>
+               01.23.45.67.89
+            </p>
+        </div>
+        <nav>
+            <ul class="nav-list">
+                <li class="nav-list-item">
+                    <a href="home.html">Accueil</a>
+                </li>
+                <li class="nav-list-item">
+                    <a href="about.html">Qui sommes nous ?</a>
+                </li>
+                <li class="nav-list-item">
+                    <a href="services.html">Services</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</footer>
 </div>
 </body>
 </html>

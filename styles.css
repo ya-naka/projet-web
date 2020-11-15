@@ -16,7 +16,12 @@ header .wrapper{
     justify-content: center;
 }
 
-
+h1{
+    font-size: 36px;
+    text-align: center;
+    padding-left: 19px;
+    padding-right: 19px;
+}
 
 .header-logo{
     width: 100px;
@@ -104,6 +109,7 @@ img{
     width: 100%;
     
 }
+
 .display-none{
     display: none;
 }
@@ -145,7 +151,7 @@ img{
     border-radius: 8px;
     padding-top: 20px;
     padding-bottom: 20px;
-    width: 80%;
+    width: 100%;
 }
 
 .section-services{
@@ -160,4 +166,22 @@ img{
 
 .bg-green{
     background-color: #39D6C0;
+}
+
+.section-image{
+    display: flex;
+    flex-direction: column;
+    padding-top: 64px;
+    padding-bottom: 70px;
+}
+
+.section-image > img{
+    width: 337px;
+    height: 250px;
+    padding-top: 24px;
+}
+
+.section-texte{
+    padding-left: 19px;
+    padding-right: 19px;
 }
